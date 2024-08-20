@@ -1,0 +1,16 @@
+<div>
+   <h1>{{title}}</h1>
+   <button (click)="obterPessoas()" class="btn btn-primary m-2">Carregar</button>
+   <table class="table table-striped">
+    <thead class="table-dark bg-dark">
+      <tr><td>Nome</td><td>Sobrenome</td><td>Telefone</td></tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let p of dados">
+      <td>{{p.nome}}</td>
+      <td>{{p.sobrenome}}</td>
+      <td>{{p.telefone}}</td>
+    </tr>
+    </tbody>
+   </table>  
+</div>
