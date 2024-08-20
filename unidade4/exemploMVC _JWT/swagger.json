@@ -1,0 +1,22 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "Personagens",
+      "description": "API para personagens de jogos",
+      "version": "1.0"
+    },
+    "host": "localhost:3000",
+    "basePath": "/personagens",
+    "schemes": [
+      "http"
+    ],
+    "paths": {
+      "/": {
+        "get": {
+          "description": "Consulta aos personagens.",
+          "operationId": "LIST",
+          "responses": {}
+        }
+      }
+    }   
+}

@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <form method="post">
+            <input type="text" name="n1"><br/>
+            <input type="email" name="e1"><br/>
+            <button type="submit">Adicionar</button> 
+        </form>
+        <ul>
+            <% for(let i=0; i<contatos.length; i++) {%>
+                <li>
+                    <%= contatos[i].nome %> :: <%= contatos[i].email %>
+                    &nbsp;
+                    <a href="/contatos?delId=<%=i%>">Excluir</a>
+                </li>
+            <% } %>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+{
+    "name": "calculadora",
+    "main": "./principal.js",
+    "exports" : {
+        "." : "./principal.js"
+    },
+    "type": "module"
+}

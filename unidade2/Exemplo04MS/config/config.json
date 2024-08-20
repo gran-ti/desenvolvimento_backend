@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Rec0de@Pro",
+    "database": "pessoal_dev",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "Rec0de@Pro",
+    "database": "pessoal_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "Rec0de@Pro",
+    "database": "pessoal_prod",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
